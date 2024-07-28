@@ -4,16 +4,16 @@ import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 const NewArrivals = () => {
   const items = [
-    { imgSrc: '/first.jpg', title: 'Floral Pattern', price: 'IDR 1,200,000' },
-    { imgSrc: '/second.jpg', title: 'Geometric Design', price: 'IDR 1,500,000' },
-    { imgSrc: '/third.jpg', title: 'Modern Abstract', price: 'IDR 1,100,000' },
-    { imgSrc: '/fourth.jpg', title: 'Vintage Classic', price: 'IDR 1,300,000' },
-    { imgSrc: '/fifth.jpg', title: 'Minimalist Style', price: 'IDR 1,400,000' },
-    { imgSrc: '/first.jpg', title: 'Floral Pattern', price: 'IDR 1,200,000' },
-    { imgSrc: '/second.jpg', title: 'Geometric Design', price: 'IDR 1,500,000' },
-    { imgSrc: '/third.jpg', title: 'Modern Abstract', price: 'IDR 1,100,000' },
-    { imgSrc: '/fourth.jpg', title: 'Vintage Classic', price: 'IDR 1,300,000' },
-    { imgSrc: '/fifth.jpg', title: 'Minimalist Style', price: 'IDR 1,400,000' },
+    { imgSrc: './first.jpg', title: 'Floral Pattern', price: 'IDR 1,200,000' },
+    { imgSrc: './second.jpg', title: 'Geometric Design', price: 'IDR 1,500,000' },
+    { imgSrc: './third.jpg', title: 'Modern Abstract', price: 'IDR 1,100,000' },
+    { imgSrc: './fourth.jpg', title: 'Vintage Classic', price: 'IDR 1,300,000' },
+    { imgSrc: './fifth.jpg', title: 'Minimalist Style', price: 'IDR 1,400,000' },
+    { imgSrc: './first.jpg', title: 'Floral Pattern', price: 'IDR 1,200,000' },
+    { imgSrc: './second.jpg', title: 'Geometric Design', price: 'IDR 1,500,000' },
+    { imgSrc: './third.jpg', title: 'Modern Abstract', price: 'IDR 1,100,000' },
+    { imgSrc: './fourth.jpg', title: 'Vintage Classic', price: 'IDR 1,300,000' },
+    { imgSrc: './fifth.jpg', title: 'Minimalist Style', price: 'IDR 1,400,000' },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

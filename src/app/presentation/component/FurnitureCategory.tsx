@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 const FurnitureCategories = () => {
   const categories = [
-    { imgSrc: '/sixth.jpg', title: 'Living Room', items: '18,309 items', description: 'Explore our beautiful living room wallpapers.' },
-    { imgSrc: '/third.jpg', title: 'Decor', items: '77,392 items', description: 'Discover decorative wallpapers for every room.' },
-    { imgSrc: '/fourth.jpg', title: 'Bedroom', items: '22,094 items', description: 'Find soothing wallpapers for your bedroom.' },
-    { imgSrc: '/ninth.jpg', title: 'Kids Room', items: '837 items', description: 'Fun and vibrant wallpapers for kids\' rooms.' },
+    { imgSrc: './sixth.jpg', title: 'Living Room', items: '18,309 items', description: 'Explore our beautiful living room wallpapers.' },
+    { imgSrc: './third.jpg', title: 'Decor', items: '77,392 items', description: 'Discover decorative wallpapers for every room.' },
+    { imgSrc: './fourth.jpg', title: 'Bedroom', items: '22,094 items', description: 'Find soothing wallpapers for your bedroom.' },
+    { imgSrc: './ninth.jpg', title: 'Kids Room', items: '837 items', description: 'Fun and vibrant wallpapers for kids\' rooms.' },
   ];
 
   return (

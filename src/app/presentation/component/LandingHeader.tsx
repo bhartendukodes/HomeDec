@@ -28,7 +28,7 @@ const LandingHeader = () => {
         <div className="relative flex-1 w-full md:w-1/2 h-[300px] md:h-auto bg-white hidden md:block">
           <div className="absolute top-0 right-0 bottom-0 left-0">
             <Image
-              src="/banner.png"
+              src="./banner.png"
               alt="Furniture"
               layout="fill"
               objectFit="contain"
