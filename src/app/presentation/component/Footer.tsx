@@ -20,7 +20,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="w-full lg:w-1/5 mb-6 lg:mb-0">
-            <h3 className="text-xl font-bold mb-4">Company</h3>
+            <h3 className="text-xl font-bold mb-4">Companies</h3>
             <ul>
               <li className="mb-2"><a href="#" className="text-gray-700 hover:underline">About</a></li>
               <li className="mb-2"><a href="#" className="text-gray-700 hover:underline">Career</a></li>
